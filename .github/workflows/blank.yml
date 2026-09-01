@@ -11,7 +11,7 @@ jobs:
           cache: npm
 
       - name: install dependency
-        run : npm ci
+        run: npm ci
 
       - name: Build React app
         run: npm run build
